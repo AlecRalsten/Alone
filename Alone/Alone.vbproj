@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{27E4C762-9224-404E-90E3-928F7962A7BC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Alone.My.MyApplication</StartupObject>
+    <RootNamespace>Alone</RootNamespace>
+    <AssemblyName>Alone</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\atec.net\warehouse\dev\ralstena\Documents\Visual Studio 2010\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Alone.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Alone.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Achievements.Designer.vb">
+      <DependentUpon>Achievements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achievements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Back.Designer.vb">
+      <DependentUpon>Back.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Back.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="create.Designer.vb">
+      <DependentUpon>create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level6.Designer.vb">
+      <DependentUpon>level6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="level6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level1.designer.vb">
+      <DependentUpon>level1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="level1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level3.designer.vb">
+      <DependentUpon>level3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="level3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level5.designer.vb">
+      <DependentUpon>level5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="level5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level4.Designer.vb">
+      <DependentUpon>Level4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Level4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level8.Designer.vb">
+      <DependentUpon>level8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="level8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level2.Designer.vb">
+      <DependentUpon>level2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="level2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level7.Designer.vb">
+      <DependentUpon>level7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="level7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="levelselect.Designer.vb">
+      <DependentUpon>levelselect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="levelselect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logedin.Designer.vb">
+      <DependentUpon>logedin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="logedin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu1.Designer.vb">
+      <DependentUpon>Menu1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu2.Designer.vb">
+      <DependentUpon>Menu2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="start.designer.vb">
+      <DependentUpon>start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Store.Designer.vb">
+      <DependentUpon>Store.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Store.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tut.Designer.vb">
+      <DependentUpon>tut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tut2.Designer.vb">
+      <DependentUpon>tut2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tut2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Achievements.resx">
+      <DependentUpon>Achievements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Back.resx">
+      <DependentUpon>Back.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="create.resx">
+      <DependentUpon>create.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level6.resx">
+      <DependentUpon>level6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level1.resx">
+      <DependentUpon>level1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level3.resx">
+      <DependentUpon>level3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level5.resx">
+      <DependentUpon>level5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level4.resx">
+      <DependentUpon>Level4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level8.resx">
+      <DependentUpon>level8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level2.resx">
+      <DependentUpon>level2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level7.resx">
+      <DependentUpon>level7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="levelselect.resx">
+      <DependentUpon>levelselect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logedin.resx">
+      <DependentUpon>logedin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu1.resx">
+      <DependentUpon>Menu1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu2.resx">
+      <DependentUpon>Menu2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start.resx">
+      <DependentUpon>start.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store.resx">
+      <DependentUpon>Store.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tut.resx">
+      <DependentUpon>tut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tut2.resx">
+      <DependentUpon>tut2.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portal3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portal2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\gold2.png" />
+    <None Include="Resources\unlock.png" />
+    <None Include="Resources\playerU.png" />
+    <None Include="Resources\playerR.png" />
+    <None Include="Resources\playerL.png" />
+    <None Include="Resources\gold.png" />
+    <None Include="Resources\keyhole1.png" />
+    <None Include="Resources\keyhole.png" />
+    <None Include="Resources\Bazinga.wav" />
+    <None Include="Resources\Lost.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
